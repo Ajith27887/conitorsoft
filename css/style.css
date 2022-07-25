@@ -1,0 +1,301 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    width: 100%;
+    padding: 40px;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: transparent;
+}
+
+nav span {
+    cursor: pointer;
+}
+
+nav ol {
+    display: flex;
+    list-style-type: none;
+}
+
+@media(max-width:992px) {
+    nav ol {
+        text-align: center;
+        display: none;
+        list-style-type: none;
+    }
+}
+
+nav ol li {
+    margin-left: 20px;
+}
+
+nav ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+    color: orangered;
+}
+
+.active {
+    color: orangered;
+}
+
+nav button {
+    text-align: center;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+}
+
+header .container {
+    padding-top: 200px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header p:nth-child(1) {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+header p:nth-child(2) {
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+header p:nth-child(3) {
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+header span {
+    font-size: 10px;
+}
+
+article {
+    margin-top: -50px;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 70px;
+    background-color: rgb(246, 237, 255);
+}
+
+article h2 {
+    font-weight: 900;
+    color: black;
+}
+
+article button {
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+article img {
+    width: 301px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.content {
+    max-width: 301px;
+    height: auto;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.content span {
+    color: orangered;
+    font-weight: bold;
+}
+
+.line {
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+section {
+    margin-top: -50px;
+    height: auto;
+    padding: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: blueviolet;
+}
+
+section h1 {
+    color: white;
+}
+
+.horizontal-line {
+    width: 7px;
+    height: 90px;
+    background-color: white;
+}
+
+section img {
+    width: 301px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+@media(max-width:992px) {
+    article {
+        padding: 20px;
+        margin-top: -100px;
+    }
+    section {
+        padding: 20px;
+        margin-top: -5px;
+    }
+    aside {
+        padding: 20px;
+        margin-top: 50px;
+    }
+    aside h1 {
+        text-align: center;
+    }
+}
+
+aside {
+    margin-top: -50px;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 70px;
+    background-color: rgb(246, 237, 255);
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+aside h2 {
+    font-weight: 900;
+    color: blueviolet;
+}
+
+aside h4 {
+    font-weight: 900;
+    color: rgb(68, 61, 61);
+}
+
+footer {
+    display: grid;
+    align-content: center;
+    margin-top: -50px;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 70px;
+    background-color: rgb(121, 78, 165);
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer input {
+    border: 2px solid orangered;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer input[type=button] {
+    background-color: orangered;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+
+footer i {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.second-footer {
+    height: auto;
+    padding: 70px;
+    background-color: rgb(71, 71, 135);
+}
+
+.second-footer ol {
+    display: flex;
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.second-footer ol li {
+    margin-left: 20px;
+}
+
+.second-footer ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+.second-footer img {
+    width: 100px;
+    height: 100px;
+}
+
+.second-footer ol li a:hover {
+    color: orangered;
+}
+
+@media(max-width:992px) {
+    .second-footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .second-footer ol {
+        text-align: center;
+        display: block;
+        list-style-type: none;
+    }
+}
